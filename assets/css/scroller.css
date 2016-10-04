@@ -1,0 +1,17 @@
+/*
+
+Site Name: atres.gr
+Author:    Future Media
+
+Stylesheet: mCustomScrollbar jQuery Plugin
+
+*/
+.mCustomScrollbar { -ms-touch-action: none; touch-action: none; /* MSPointer events - direct all pointer events to js */ }
+
+.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action { -ms-touch-action: auto; touch-action: auto; }
+
+.mCustomScrollBox { /* contains plugin's markup */ position: relative; overflow: hidden; height: 100%; max-width: 100%; outline: none; direction: ltr; }
+
+.mCSB_container { /* contains the original content */ overflow: hidden; width: auto; height: auto; }
+
+/*# sourceMappingURL=scroller.css.map */

@@ -1,0 +1,57 @@
+/*
+Error: File to import not found or unreadable: ../core/normalize.
+       Load paths:
+         /Users/lefteristheodossiadis/Sites/www-cbre/wp-content/themes/atres-master/assets/scss/plugins
+         Sass::Globbing::Importer
+        on line 20 of /Users/lefteristheodossiadis/Sites/www-cbre/wp-content/themes/atres-master/assets/scss/plugins/editor-style.scss
+
+15: /* Wrap the entire post style inside the TinyMCE selector, as suggested
+16: here http://codex.wordpress.org/Function_Reference/add_editor_style *\/
+17: body#tinymce.wp-editor {
+18: 
+19: 	// normalize: http://necolas.github.io/normalize.css/
+20: 	@import "../core/normalize";
+21: 
+22: 	// Sass variables
+23: 	@import "../core/variables";
+24: 
+25: 	// typography
+
+Backtrace:
+/Users/lefteristheodossiadis/Sites/www-cbre/wp-content/themes/atres-master/assets/scss/plugins/editor-style.scss:20
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:107:in `rescue in invalid_import_parent?'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:101:in `invalid_import_parent?'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:175:in `try_send'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:12:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:38:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:24:in `visit'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:35:in `css_tree'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:412:in `run'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Web Developer/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../core/normalize.\A        Load paths:\A          /Users/lefteristheodossiadis/Sites/www-cbre/wp-content/themes/atres-master/assets/scss/plugins\A          Sass::Globbing::Importer\A         on line 20 of /Users/lefteristheodossiadis/Sites/www-cbre/wp-content/themes/atres-master/assets/scss/plugins/editor-style.scss\A \A 15: /* Wrap the entire post style inside the TinyMCE selector, as suggested\A 16: here http://codex.wordpress.org/Function_Reference/add_editor_style */\A 17: body#tinymce.wp-editor {\A 18: \A 19: 	// normalize: http://necolas.github.io/normalize.css/\A 20: 	@import \"../core/normalize\";\A 21: \A 22: 	// Sass variables\A 23: 	@import \"../core/variables\";\A 24: \A 25: 	// typography"; }

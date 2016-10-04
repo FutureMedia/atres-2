@@ -1,0 +1,987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Atres ( v. 2.0.0 )\n"
+"POT-Creation-Date: 2016-10-04 20:22+0300\n"
+"PO-Revision-Date: 2016-10-04 20:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: archive-custom_type.php:33 page-custom.php:33
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span>"
+msgstr ""
+"Aναρτήθηκε <time class=“updated” datetime=“%1$s” pubdate>%2$s</time> από "
+"<span class=“author”>%3$s</span>."
+
+#: archive-custom_type.php:33 taxonomy-custom_cat.php:33
+msgid "F jS, Y"
+msgstr "F jS Y"
+
+#: archive-custom_type.php:58 archive.php:91 content-single.php:30
+#: page-custom.php:80 taxonomy-custom_cat.php:57
+msgid "Oops, Post Not Found!"
+msgstr "Ουουπ! Δεν Βρέθηκε Αυτή Η Σελίδα"
+
+#: archive-custom_type.php:61 archive.php:94 content-single.php:33
+#: page-custom.php:83 taxonomy-custom_cat.php:60
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Χμμμ, κάτι λείπει. Ελέγξτε ξανά όλες τις λεπτομέρειες. "
+
+#: archive-custom_type.php:64
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+"Αυτό είναι το μήνυμα σφάλματος στο πρότυπο αρχείου προσαρμοσμένου τύπου."
+
+#: archive-property.php:28 template-properties-alt.php:68
+msgid "Properties List"
+msgstr "Κατάλογος ακινήτων"
+
+#: archive-property.php:29
+#, php-format
+msgid "%1$s properties found."
+msgstr "Βρέθηκαν %1$s ακίνητα"
+
+#: archive.php:97
+msgid "This is the error message in the archive.php template."
+msgstr "Αυτό είναι το μήνυμα σφάλματος στο πρότυπο archive.php."
+
+#: comments.php:17 content-blog.php:38
+msgid "<span>No</span> Comments"
+msgstr "<span>Χωρίς</span> Σχόλια"
+
+#: comments.php:17 content-blog.php:38
+msgid "<span>One</span> Comment"
+msgstr "<span>Ένα</span> Σχόλιο"
+
+#: comments.php:17 content-blog.php:38
+msgid "<span>%</span> Comments"
+msgstr "<span>%</span> Σχόλια"
+
+#: comments.php:27
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: comments.php:38
+msgid "&larr; Previous Comments"
+msgstr "&larr; Παλαιότερα Σχόλια"
+
+#: comments.php:39
+msgid "More Comments &rarr;"
+msgstr "Περισσότερα Σχόλια &rarr;"
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#: content-blog-aside.php:21 content-blog-audio.php:21
+#: content-blog-gallery.php:21 content-blog-image.php:21
+#: content-blog-link.php:21 content-blog-quote.php:10 content-blog-video.php:21
+#: content-blog.php:21 page.php:18
+msgid "Posted"
+msgstr "Καταχωρήθηκε"
+
+#: content-blog-aside.php:25 content-blog-audio.php:25
+#: content-blog-gallery.php:25 content-blog-image.php:25
+#: content-blog-link.php:24 content-blog-quote.php:14 content-blog-video.php:25
+#: content-blog.php:25 page.php:18
+msgid "by"
+msgstr "από"
+
+#: content-blog-aside.php:49 content-blog-audio.php:49
+#: content-blog-gallery.php:49 content-blog-image.php:49
+#: content-blog-link.php:48 content-blog-quote.php:38 content-blog-video.php:49
+#: page-custom.php:57 page.php:41
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: content-blog-aside.php:58 content-blog-audio.php:58
+#: content-blog-gallery.php:58 content-blog-image.php:58
+#: content-blog-link.php:60 content-blog-quote.php:50 content-blog-video.php:58
+#: page-custom.php:68
+msgid "Tags:"
+msgstr "Ετικέτες:"
+
+#: content-blog-link.php:58 content-blog-quote.php:48
+#, php-format
+msgid "Filed under: %1$s"
+msgstr "Καταχωρήθηκε σε: %1$s"
+
+#: content-blog.php:40
+msgid "filed under"
+msgstr "καταχωρήθηκε σε"
+
+#: content-none.php:18
+msgid "Sorry, nothing Found"
+msgstr "Συγνώμη, δεν βρέθηκε κάτι"
+
+#: content-none.php:20
+msgid "Oops, not found"
+msgstr "Ωχ, δεν βρέθηκε"
+
+#: content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Λυπούμαστε, αλλά τίποτα δεν ταιριάζει στους όρους αναζήτησης. Παρακαλούμε "
+"δοκιμάστε ξανά με κάποιες διαφορετικές λέξεις-κλειδιά."
+
+#: content-none.php:34
+msgid "It seams there was an error."
+msgstr "Παρουσιάστηκε σφάλμα."
+
+#: content-none.php:36
+msgid "We couldn't find what you were looking for."
+msgstr "Δεν μπορέσαμε να βρούμε αυτό που ψάχνετε."
+
+#: content-none.php:38
+msgid " Maybe you'd like to try our search again?"
+msgstr "Ίσως θα θέλατε να δοκιμάσετε ξανά αναζήτηση μας;"
+
+#: content-single.php:36
+msgid "This is the error message in the single.php template."
+msgstr "Αυτό είναι το μήνυμα σφάλματος στο πρότυπο single.php."
+
+#: core/admin.php:55
+msgid "j F Y"
+msgstr "j F Y"
+
+#: core/admin.php:56
+msgid "j F Y @ g:i a"
+msgstr "j F Y @ g:i a"
+
+#: core/admin.php:69
+msgid "Recently on Future Media"
+msgstr "Πρόσφατα, στη Future Media"
+
+#: core/admin.php:104
+msgid "Atres.gr at a glance"
+msgstr "Atres.gr με μια ματιά"
+
+#: core/admin.php:188
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://futuremedia.gr\" "
+"target=\"_blank\">Future Media</a></span>"
+msgstr ""
+"<span id=“footer-thankyou”>Αναπτύχθηκε από την <a href=“http://futuremedia."
+"gr” target=“_blank”Future Media</a></span>"
+
+#: core/cpt-.php:26
+msgid "Properties"
+msgstr "Ακίνητα "
+
+#: core/cpt-.php:27
+msgid "Property"
+msgstr "Ακίνητο"
+
+#: core/cpt-.php:28 core/cpt-.php:121
+msgid "Add New"
+msgstr "Προσθήκη νέου"
+
+#: core/cpt-.php:29
+msgid "Add New Property"
+msgstr "Προσθήκη Νέου Ακινήτου"
+
+#: core/cpt-.php:30
+msgid "Edit Property"
+msgstr "Τροποποίηση Ακινήτου"
+
+#: core/cpt-.php:31
+msgid "New Property"
+msgstr "Νέο Ακίνητο"
+
+#: core/cpt-.php:32
+msgid "View Property"
+msgstr "Προβολή Ακινήτου"
+
+#: core/cpt-.php:33
+msgid "Search Property"
+msgstr "Αναζήτηση Ακινήτων"
+
+#: core/cpt-.php:34
+msgid "No Property found."
+msgstr "Δεν βρέθηκε κανένα ακίνητο."
+
+#: core/cpt-.php:35
+msgid "No Property found in Trash."
+msgstr "Δεν βρέθηκε ακίνητο στον κάδο απορριμμάτων."
+
+#: core/cpt-.php:50
+msgid "property"
+msgstr "ακίνητο"
+
+#: core/cpt-.php:61 core/cpt-.php:62
+msgid "Trancaction"
+msgstr "Συναλλαγή"
+
+#: core/cpt-.php:63
+msgid "Search Trancaction"
+msgstr "Αναζήτηση Είδους Συναλλαγής"
+
+#: core/cpt-.php:64
+msgid "Popular Trancaction"
+msgstr "Δημοφιλές Είδος Συναλλαγής"
+
+#: core/cpt-.php:65
+msgid "All Trancaction"
+msgstr "Όλες οι Συναλλαγές"
+
+#: core/cpt-.php:66
+msgid "Edit Trancaction"
+msgstr "Επεξεργασία Συναλλαγής"
+
+#: core/cpt-.php:67
+msgid "Update Trancaction"
+msgstr "Ενημέρωση Συναλλαγής"
+
+#: core/cpt-.php:68
+msgid "Add New Trancaction"
+msgstr "Προσθήκη Νέας Συναλλαγής"
+
+#: core/cpt-.php:69
+msgid "New Trancaction Name"
+msgstr "Νέο Όνομα Συναλλαγής"
+
+#: core/cpt-.php:70
+msgid "Separate Trancaction With Commas"
+msgstr "Διαχωρίστε τα Είδη Συναλλαγών με Κόμμα"
+
+#: core/cpt-.php:71
+msgid "Add or Remove Trancaction"
+msgstr "Προσθήκη ή Κατάργηση Συναλλαγής"
+
+#: core/cpt-.php:72
+msgid "Choose From Most Used Trancaction"
+msgstr "Επιλέξτε Από την Πλέον Χρησιμοποιούμενη Συναλλαγή"
+
+#: core/cpt-.php:73
+msgid "Parent Trancaction"
+msgstr "Γονέας Συναλλαγών"
+
+#: core/cpt-.php:77
+msgid "transaction"
+msgstr "συναλλαγή"
+
+#: core/cpt-.php:88 core/cpt-.php:89 single-property.php:206
+msgid "Property Type"
+msgstr "Τύπος Ακινήτου"
+
+#: core/cpt-.php:90
+msgid "Search Property Type"
+msgstr "Αναζήτηση Τύπου Ακινήτου"
+
+#: core/cpt-.php:91
+msgid "Popular Property Type"
+msgstr "Δημοφιλής Τύπος Ακινήτου"
+
+#: core/cpt-.php:92
+msgid "All Property Type"
+msgstr "Όλοι οι Τύποι Ακινήτων"
+
+#: core/cpt-.php:93
+msgid "Edit Property Type"
+msgstr "Τροποποίηση Είδους Ακινήτου"
+
+#: core/cpt-.php:94
+msgid "Update Property Type"
+msgstr "Ενημέρωση Είδους Ακινήτου"
+
+#: core/cpt-.php:95
+msgid "Add New Property Type"
+msgstr "Προσθήκη Νέου Τύπου Ακινήτου"
+
+#: core/cpt-.php:96
+msgid "New Property Type Name"
+msgstr "Όνομα Νέου Τύπου Ακινήτου"
+
+#: core/cpt-.php:97
+msgid "Separate Property Type With Commas"
+msgstr "Διαχωρίστε τους Τύπους Ακινήτων με Κόμμα"
+
+#: core/cpt-.php:98
+msgid "Add or Remove Property Type"
+msgstr "Προσθήκη ή κατάργηση Τύπου Ακινήτου"
+
+#: core/cpt-.php:99
+msgid "Choose From Most Used Property Type"
+msgstr "Επιλέξτε από τους πιο Χρησιμοποιούμενους Τύπους Ακινήτου"
+
+#: core/cpt-.php:100
+msgid "Parent Property Type"
+msgstr "Γονέας Είδους Ακινήτου"
+
+#: core/cpt-.php:104
+msgid "property-type"
+msgstr "τύπος ακινήτου"
+
+#: core/cpt-.php:118
+msgid "Custom Types"
+msgstr "Προσαρμοσμένοι Τύποι"
+
+#: core/cpt-.php:119
+msgid "Custom Post"
+msgstr "Προσαρμοσμένη Ανάρτηση"
+
+#: core/cpt-.php:120
+msgid "All Custom Posts"
+msgstr "Όλες οι Προσαρμοσμένες Αναρτήσεις"
+
+#: core/cpt-.php:122
+msgid "Add New Custom Type"
+msgstr "Προσθήκη Νέου Προσαρμοσμένου Τύπου"
+
+#: core/cpt-.php:123
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: core/cpt-.php:124
+msgid "Edit Post Types"
+msgstr "Επεξεργασία Είδών Αναρτήσεων"
+
+#: core/cpt-.php:125
+msgid "New Post Type"
+msgstr "New Post Type"
+
+#: core/cpt-.php:126
+msgid "View Post Type"
+msgstr "View Post Type"
+
+#: core/cpt-.php:127
+msgid "Search Post Type"
+msgstr "Search Post Type"
+
+#: core/cpt-.php:128
+msgid "Nothing found in the Database."
+msgstr "Δεν βρέθηκε κάτι στη βάση δεδομένων."
+
+#: core/cpt-.php:129
+msgid "Nothing found in Trash"
+msgstr "Δεν βρέθηκε στον Κάδο"
+
+#: core/cpt-.php:132
+msgid "This is the example custom post type"
+msgstr "This is the example custom post type"
+
+#: core/cpt-.php:169
+msgid "Custom Categories"
+msgstr "Custom Categories"
+
+#: core/cpt-.php:170
+msgid "Custom Category"
+msgstr "Custom Category"
+
+#: core/cpt-.php:171
+msgid "Search Custom Categories"
+msgstr "Search Custom Categories"
+
+#: core/cpt-.php:172
+msgid "All Custom Categories"
+msgstr "All Custom Categories"
+
+#: core/cpt-.php:173
+msgid "Parent Custom Category"
+msgstr "Parent Custom Category"
+
+#: core/cpt-.php:174
+msgid "Parent Custom Category:"
+msgstr "Parent Custom Category:"
+
+#: core/cpt-.php:175
+msgid "Edit Custom Category"
+msgstr "Edit Custom Category"
+
+#: core/cpt-.php:176
+msgid "Update Custom Category"
+msgstr "Update Custom Category"
+
+#: core/cpt-.php:177
+msgid "Add New Custom Category"
+msgstr "Add New Custom Category"
+
+#: core/cpt-.php:178
+msgid "New Custom Category Name"
+msgstr "New Custom Category Name"
+
+#: core/cpt-.php:192
+msgid "Custom Tags"
+msgstr "Custom Tags"
+
+#: core/cpt-.php:193
+msgid "Custom Tag"
+msgstr "Custom Tag"
+
+#: core/cpt-.php:194
+msgid "Search Custom Tags"
+msgstr "Search Custom Tags"
+
+#: core/cpt-.php:195
+msgid "All Custom Tags"
+msgstr "All Custom Tags"
+
+#: core/cpt-.php:196
+msgid "Parent Custom Tag"
+msgstr "Parent Custom Tag"
+
+#: core/cpt-.php:197
+msgid "Parent Custom Tag:"
+msgstr "Parent Custom Tag:"
+
+#: core/cpt-.php:198
+msgid "Edit Custom Tag"
+msgstr "Edit Custom Tag"
+
+#: core/cpt-.php:199
+msgid "Update Custom Tag"
+msgstr "Update Custom Tag"
+
+#: core/cpt-.php:200
+msgid "Add New Custom Tag"
+msgstr "Add New Custom Tag"
+
+#: core/cpt-.php:201
+msgid "New Custom Tag Name"
+msgstr "New Custom Tag Name"
+
+#: core/cpt-team-.php:27
+msgctxt "post type general name"
+msgid "Team"
+msgstr "Ομάδα"
+
+#: core/cpt-team-.php:28
+msgctxt "post type singular name"
+msgid "Team"
+msgstr "Ομάδα"
+
+#: core/cpt-team-.php:30
+msgctxt "team item"
+msgid "Add New"
+msgstr "Προσθήκη νέου"
+
+#: core/cpt-team-.php:31
+msgid "Add New Profile"
+msgstr "Προσθήκη Νέου Προφίλ"
+
+#: core/cpt-team-.php:32
+msgid "Edit Profile"
+msgstr "Επεξεργασία Προφίλ"
+
+#: core/cpt-team-.php:33
+msgid "New Profile"
+msgstr "Νέο Προφίλ"
+
+#: core/cpt-team-.php:34
+msgid "View Profile"
+msgstr "Εμφάνιση Προφίλ"
+
+#: core/cpt-team-.php:35
+msgid "Search Profiles"
+msgstr "Αναζήτηση Προφίλ"
+
+#: core/cpt-team-.php:36
+msgid "No Profiles Found"
+msgstr "Δεν Βρέθηκαν Προφίλ"
+
+#: core/cpt-team-.php:37
+msgid "No Profiles Found in Trash"
+msgstr "Δεν βρέθηκαν Προφίλ στον κάδο απορριμμάτων"
+
+#: core/extras.php:98
+#, php-format
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: core/extras.php:115
+#, php-format
+msgid "Tagged as %s"
+msgstr "Με ετικέτα %s"
+
+#: core/extras.php:117
+#, php-format
+msgid "Authored by %s"
+msgstr "Δημοσιεύτηκε από %s"
+
+#: core/extras.php:122
+#, php-format
+msgid "Properties for %s"
+msgstr "Ακίνητα για %s"
+
+#: core/extras.php:126
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: core/extras.php:129
+msgid "Archives"
+msgstr "Αρχεία"
+
+#: core/extras.php:158
+msgid "No Related Posts Yet!"
+msgstr "Δεν υπάρχουν σχετικές αναρτήσεις ακόμη!"
+
+#: core/extras.php:204 core/extras.php:250
+msgid "Read "
+msgstr "Διαβάστε"
+
+#: core/extras.php:204 core/extras.php:250
+msgid "Read more &raquo;"
+msgstr "Διαβάστε περισσότερα &raquo;"
+
+# In Search Form
+#: core/extras.php:328
+#, php-format
+msgid "any %s"
+msgstr "όλα %s"
+
+#: core/extras.php:408
+msgid "Please enter your full name."
+msgstr "Παρακαλώ γράψτε το πλήρες όνομά σας"
+
+#: core/extras.php:415
+msgid "Please enter your email address."
+msgstr "Παρακαλώ γράψτε το e-mail σας"
+
+#: core/extras.php:418
+msgid "You entered an invalid email address."
+msgstr "Μη έγκυρη διεύθυνση email."
+
+#: core/extras.php:432
+msgid "Please enter a message."
+msgstr "Παρακαλώ εισάγετε το μήνυμά σας."
+
+#: core/extras.php:463
+msgid "Thank you for contacting us. We will reply to you as soon as possible."
+msgstr ""
+"Σας ευχαριστούμε που επικοινωνήσατε μαζί μας. Θα σας απαντήσουμε όσο το "
+"δυνατόν συντομότερα."
+
+#: core/extras.php:465
+msgid "The message could not be sent!"
+msgstr "Το μήνυμα δεν μπόρεσε να σταλεί!"
+
+#: core/extras.php:470
+msgid "Please correct the following errors:"
+msgstr "Παρακαλώ διορθώστε τα ακόλουθα λάθη:"
+
+#: core/extras.php:488
+msgid "There was an error!"
+msgstr "Παρουσιάστηκε σφάλμα!"
+
+#: footer.php:32
+msgctxt "footer"
+msgid "Atria Property Services"
+msgstr "Atria Υπηρεσίες Ακινήτων"
+
+#: footer.php:37
+msgid "Athens Office"
+msgstr "Γραφεία Αθηνών"
+
+#: footer.php:39
+msgid "Athens"
+msgstr "Αθήνα"
+
+#: footer.php:44
+msgid "Thessaloniki Office"
+msgstr "Γραφεία Θεσσαλονίκης"
+
+#: footer.php:46
+msgid "Thessaloniki"
+msgstr "Θεσσαλονίκη"
+
+#: functions.php:95 header.php:98
+msgid "Top Menu"
+msgstr "Top Menu"
+
+#: functions.php:96 partials/menu-offscreen.php:30
+msgid "Mobile Menu"
+msgstr "Mobile Menu"
+
+#: functions.php:97
+msgid "Footer Links"
+msgstr "Footer Links"
+
+#: functions.php:127
+msgid "240px by 151px"
+msgstr "240px by 151px"
+
+#: functions.php:128
+msgid "300px by 300px"
+msgstr "300px by 300px"
+
+#: functions.php:129
+msgid "600px by 600px"
+msgstr "600px by 600px"
+
+#: functions.php:130
+msgid "1240px min width"
+msgstr "1240px min width"
+
+#: functions.php:141
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:142
+msgid "The first (primary) sidebar."
+msgstr "Το πρώτο sidebar (πρωτεύον)."
+
+#: header.php:91
+msgid "Greek Properties for Sale or Lease"
+msgstr "Ακίνητα προς Πώληση ή Ενοικίαση"
+
+#: page-custom.php:86
+msgid "This is the error message in the page-custom.php template."
+msgstr ""
+"Αυτό είναι το μήνυμα σφάλματος στο πρότυπο αρχείου προσαρμοσμένου τύπου."
+
+#: partials/loop-blog.php:26 sidebar.php:17
+msgid "Published by"
+msgstr "Δημοσιεύθηκε από"
+
+#: partials/loop-blog.php:28 sidebar.php:19
+msgid "on"
+msgstr "στις"
+
+#: partials/loop-properties-grid.php:50 partials/loop-properties-widget.php:47
+#: single-property.php:167 template-properties.php:49
+msgid "Price on Request"
+msgstr "Τιμή κατόπιν αιτήματος"
+
+#: partials/loop-properties-grid.php:58 template-properties.php:57
+msgid "Seasonal Rates"
+msgstr "Εποχικές Τιμές"
+
+#: partials/loop-properties-list.php:49
+msgid "PpM"
+msgstr "Τ/Μ"
+
+#: partials/loop-properties-list.php:57
+msgid "PpD"
+msgstr "Τ/Η"
+
+#: partials/loop-properties-list.php:63
+msgid "For:"
+msgstr "Για:"
+
+#: partials/search-simple.php:17
+msgctxt "home search"
+msgid "any transaction"
+msgstr "συναλλαγή"
+
+#: partials/search-simple.php:23
+msgctxt "home search"
+msgid "any property type"
+msgstr "τύπος ακινήτου"
+
+#: partials/search-simple.php:28
+msgctxt "home search"
+msgid "any location"
+msgstr "Τοποθεσία"
+
+#: partials/search-simple.php:91
+msgctxt "home search"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: partials/search-simple.php:102
+msgid "Nothing found!"
+msgstr "Δεν βρέθηκε κάτι!"
+
+#: partials/seasonal-rates.php:19
+msgid "Date from - to (D/M/Y)"
+msgstr "Ημερομηνία από - έως (Η/M/Χ)"
+
+#: partials/seasonal-rates.php:20
+msgid "Rates"
+msgstr "Τιμές"
+
+#: partials/seasonal-rates.php:21
+msgid "Monthly Rate"
+msgstr "Μηνιαία Χρέωση"
+
+#: partials/seasonal-rates.php:22
+msgid "Notes"
+msgstr "Σημειώσεις"
+
+#: search.php:20
+msgid "Search Results for:"
+msgstr "Αποτελέσματα αναζήτησης για:"
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: searchform.php:6
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: sidebar.php:21
+msgid "in"
+msgstr "σε"
+
+#: single-property.php:14
+msgid "Air Conditioning"
+msgstr "Κλιματισμός"
+
+#: single-property.php:15
+msgid "Security Alarm"
+msgstr "Συναγερμός"
+
+#: single-property.php:16
+msgid "BBQ"
+msgstr "μπάρμπεκιου"
+
+#: single-property.php:17
+msgid "Fireplace"
+msgstr "Τζάκι"
+
+#: single-property.php:18
+msgid "Furnished"
+msgstr "Επιπλωμένο"
+
+#: single-property.php:19
+msgid "Outdoor Parking"
+msgstr "Υπαίθριος χώρος στάθμευσης"
+
+#: single-property.php:20
+msgid "Enclosed Parking"
+msgstr "Στεγασμένος Χώρος Στάθμευσης"
+
+#: single-property.php:21
+msgid "Storage Area"
+msgstr "Αποθηκευτικός χώρος"
+
+#: single-property.php:22
+msgid "Open Views"
+msgstr "Ανοιχτή θέα"
+
+#: single-property.php:23
+msgid "Seafront"
+msgstr "Δίπλα στη θάλασσα"
+
+#: single-property.php:24
+msgid "Swimming Pool"
+msgstr "Πισίνα"
+
+#: single-property.php:172
+msgid "Price"
+msgstr "Τιμή"
+
+#: single-property.php:179
+msgid "Per Month"
+msgstr "Ανά Μήνα"
+
+#: single-property.php:186
+msgid "Per Day"
+msgstr "Ανά Ημέρα"
+
+#: single-property.php:199
+msgid "View Seasonal Rates"
+msgstr "Δείτε τις Εποχικές Τιμές"
+
+#: single-property.php:207
+msgid "Available for"
+msgstr "Διαθέσιμο για"
+
+#: single-property.php:208
+msgid "Area"
+msgstr "Περιοχή"
+
+#: single-property.php:209
+msgid "Plot Area"
+msgstr "Εμβαδόν Οικοπέδου"
+
+#: single-property.php:210
+msgid "Bedrooms"
+msgstr "Υπνοδωμάτια"
+
+#: single-property.php:211
+msgid "Bathrooms"
+msgstr "Μπάνια"
+
+#: single-property.php:273 single-property.php:284
+msgid "Your Contact"
+msgstr "Πληροφορίες Επικοινωνίας"
+
+#: single-property.php:296
+msgid "Request more information"
+msgstr " Περισσότερες Πληροφορίες"
+
+#: single-property.php:316
+msgid "Similar Properties"
+msgstr "Παρόμοια ακίνητα"
+
+#: single-team.php:54
+msgid "Department"
+msgstr "Υπηρεσία"
+
+#: single.php:50
+msgid "Read more:"
+msgstr "Διαβάστε περισσότερα:"
+
+#: taxonomy-custom_cat.php:23
+msgid "Posts Categorized:"
+msgstr "Αναρτήσεις ανά κατηγορία:"
+
+#: taxonomy-custom_cat.php:33
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" itemprop=\"datePublished\">"
+"%2$s</time> by <span class=\"author\">%3$s</span> <span class=\"amp\">&</"
+"span> filed under %4$s."
+msgstr ""
+"Αναρτήθηκε <time class=“updated” datetime=“%1$s” pubdate>%2$s</time> από "
+"<span class=“συντάκτης”>%3$s</span> <span class=“amp”>&</span> καταχωρήθηκε "
+"στο %4$s."
+
+#: taxonomy-custom_cat.php:39
+msgid "Read More &raquo;"
+msgstr "Διαβάστε περισσότερα &raquo;"
+
+#: taxonomy-custom_cat.php:63
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Αυτό είναι το μήνυμα σφάλματος στο πρότυπο ταξινόμησης-custom_cat.php."
+
+#: template-company.php:72
+msgid "CONTACT US"
+msgstr "ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ"
+
+#: template-company.php:110
+msgid "Meet our people"
+msgstr "Γνωρίστε τους ανθρώπους μας"
+
+#: template-contact.php:21
+msgid "Full Name"
+msgstr "Πλήρες Όνομα"
+
+#: template-contact.php:23 template-contact.php:29 template-contact.php:50
+msgid "required"
+msgstr "απαιτείται"
+
+#: template-contact.php:35
+msgid "Phone Number"
+msgstr "Τηλέφωνο"
+
+#: template-contact.php:37
+msgid "include the country code starting with +"
+msgstr "γράψτε και τον κωδικό της χώρας σας, ξεκινώντας με +"
+
+#: template-contact.php:41
+msgid "Country"
+msgstr "Χώρα"
+
+#: template-contact.php:48
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: template-contact.php:55
+msgid "Send"
+msgstr "Αποστολή"
+
+#: template-contact.php:90
+msgid "Thank you for your enquiry about"
+msgstr "Σας ευχαριστούμε για το ενδιαφέρον σας σχετικά με το ακίνητο"
+
+#: template-contact.php:90
+msgid "Please fill the form and we will reply to you as soon as possible."
+msgstr ""
+"Παρακαλoύμε συμπληρώστε την φόρμα επικοινωνίας και θα λάβετε την απάντησή "
+"μας όσο το δυνατόν συντομότερα."
+
+#: template-homepage.php:63 template-homepage.php:75 template-homepage.php:87
+#: template-homepage.php:99
+msgid "VIEW"
+msgstr "ΠΡΟΒΟΛΗ"
+
+#: template-homepage.php:64
+msgid "urban spaces"
+msgstr "αστικοί χώροι"
+
+#: template-homepage.php:76
+msgid "holiday homes"
+msgstr "παραθεριστικές κατοικίες"
+
+#: template-homepage.php:88
+msgid "short term rentals"
+msgstr "βραχυπρόθεσμες ενοικιάσεις"
+
+#: template-homepage.php:100
+msgid "land for sale"
+msgstr "οικόπεδο προς πώληση"
+
+#: template-homepage.php:128
+msgid "KNOW US BETTER"
+msgstr "ΓΝΩΡΙΣΤΕ ΜΑΣ ΚΑΛΥΤΕΡΑ"
+
+#: template-homepage.php:148
+msgid "featuring"
+msgstr "περιέχει"
+
+#: template-homepage.php:153
+msgid "SEARCH THE MAP"
+msgstr "ΑΝΑΖΗΤΗΣΗ ΣΤΟ ΧΑΡΤΗ"
+
+#: template-properties-alt.php:69
+msgid "Found"
+msgstr "Βρέθηκαν"
+
+#: template-properties.php:140
+msgid "Nothing Found. Please search again."
+msgstr "Δεν βρέθηκε κανένα αποτέλεσμα. Παρακαλούμε προσπάθησε ξανά."
+
+#. Theme Name of the plugin/theme
+msgid "Atres Multilinqual ( v. 2.0.0 )"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.atres.gr"
+msgstr "http://www.atres.gr"
+
+#. Description of the plugin/theme
+msgid "A customized real estate theme/app for Atria Property Services"
+msgstr "A customized real estate theme/app for Atria Property Services"
+
+#. Author of the plugin/theme
+msgid "Future Media"
+msgstr "Future Media"
+
+#. Author URI of the plugin/theme
+msgid "http://futuremedia.gr"
+msgstr "http://futuremedia.gr"
+
+#~ msgid "We will contact you as soon as possible."
+#~ msgstr "Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατόν."
+
+#~ msgid "Atres ( v. 1.4.0 )"
+#~ msgstr "Atres ( v. 1.4.0 )"
+
+#~ msgid "1240px width"
+#~ msgstr "1240px width"
+
+#~ msgid "exclusive top Greek properties"
+#~ msgstr "αποκλειστικά κορυφαία Ελληνικά ακίνητα"
+
+#~ msgctxt "home search"
+#~ msgid "any property-type"
+#~ msgstr "τύπος ακινήτου"
+
+#~ msgid "any location"
+#~ msgstr "όλες οι τοποθεσίες"
+
+#~ msgctxt "fmedia"
+#~ msgid "any %s"
+#~ msgstr "&nbsp;"
